@@ -28,6 +28,8 @@ class JournalEntry: Identifiable {
         case happy = "😊"
         case sad = "😢"
         case calm = "😌"
+        case angry = "😡"
+        case surprised = "😮"
         
     }
 }
