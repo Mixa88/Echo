@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct EchoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JournalEntryListView()
         }
+        .modelContainer(for: JournalEntry.self)
     }
 }
